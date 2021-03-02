@@ -1,0 +1,107 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# your projects
+projects:
+- name: DIPZDown
+  logo: /images/sections/projects/aws.png
+  role: Python Developer/Cloud Engineer
+  timeline: "Jan 2021 to Present"
+  summary: Clients can download multiple objects from AWS S3 using the API Gateway & lambda.
+    AWS API gateway has some limitations like can't send payload of more than 10MB & lambda has less memory to process the requested objects so to overcome this scenario used a private instace.
+  tags: ["professional"]
+
+- name: FileSpin
+  logo: /images/sections/projects/lambda.png
+  role: Python Developer/Cloud Engineer
+  timeline: "Oct 2020 to Dec 2020"
+  summary: Integrated with serverless lambda function with API Gateway and used third party FileSpin.io API to stitch the biomedical images. FileSpin.io is a proven platform for File Uploads, Dynamic Image transformations, Video transcoding and global asset distribution
+  tags: ["professional"]
+
+- name: CloudOpSec
+  logo: /images/sections/projects/django.png
+  role: Python Developer/Cloud Engineer
+  timeline: "Mar 2020 to Oct 2020"
+  summary: This provides a unified cost and security management platform for cost management, AWS inventory,
+    continuous security and compliance auditing across your AWS investment. CloudOpSec is designed to
+    help the most discerning IT, Security and Finance leaders to reduce costs, increase operational
+    efficiencies and mitigate security risks.
+  tags: ["professional"]
+
+- name: Onboard-Schema-Inference
+  logo: /images/sections/projects/lambda.png
+  role: Python Developer/Cloud Engineer
+  timeline: "Jan 2020 to Mar 2020"
+  summary: Client requirement is to convert old lambda function which they have used pandas, numpy libraries as
+    layer to lambda with using SQLalchemy. POC on zappa & SAM with flask framework.
+    The main module will update large JSON data to different tables like dataset, datasource,
+    datasetversions, connections etc...
+  tags: ["professional"]
+
+
+- name: Financial Integration Hub
+  logo: /images/sections/projects/pylogo.png
+  role: Python Developer
+  timeline: "Sep 2019 to Dec 2019"
+  summary: This will handle high sensitive data from Oracle Integration Cloud (OIC). It has two main modules
+    Inbound to OIC and Outbound to OIC. OIC will provide the public key to axway server, by using public
+    & private key encrypting and decrypting the files, this axway sends these files to AWS S3.
+  tags: ["professional"]
+
+- name: PVTextractor
+  logo: /images/sections/projects/lambda.png
+  role: Python Developer/Cloud Engineer
+  timeline: "June 2019 to Sep 2019"
+  summary: Client/user will upload document from user interface, uploaded file will store in AWS S3. If any
+    document uploaded to S3 with prefix lambda will trigger from this lambda will upload json object of
+    document to S3 by using AWS Textract & Comprehend Medical services.
+  tags: ["professional"]
+
+- name: Primeplow
+  logo: /images/sections/projects/lambda.png
+  role: Python Developer/Cloud Engineer
+  timeline: "Sep 2018 to May 2019"
+  summary: Primeplow tracker protocol is the list of all the parameters that use when firing events to push data
+    into the primeplow. Each parameter maps onto one or more fields in the Primeplow events table storage
+    and parameter added to the query string maps onto.
+  tags: ["professional"]
+
+
+
+- name: IntelligentID
+  logo: /images/sections/projects/django.png
+  role: Python Developer
+  timeline: "Apr 2017 to Apr 2018"
+  summary: Monitoring data’s endpoints, organization is fully
+    protected and monitoring in every area of its functionality. With the added insight of Smart Scan ID’s
+    file location and data-at-rest reports, organization has never been more informed and never been in more
+    control over organization’s full data security.
+  tags: ["professional"]
+
+
+- name: Network Test Tool Kit(NT2)
+  logo: /images/sections/projects/pylogo.png
+  role: Python Developer
+  timeline: "Nov 2016 to Apr 2017"
+  summary: Network Test Tool Kit was a set of Library functions written in python using various set automation
+    tools which will automate Browsing websites, Live video streaming, Live Calling in order to
+    test the network stability and getting various network parameters which would be used by testers to test
+    the Network. This tool was developed using Selenium.
+  tags: ["professional"]
+
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "March 2021 - Present"
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
+

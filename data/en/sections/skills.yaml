@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+- name: Python Development
+  logo: /images/sections/skills/pylogo.png
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+
+- name: Amazon Web Services
+  logo: /images/sections/skills/amazon_aws-icon.svg
+
+
+- name: Linux
+  logo: /images/sections/skills/linux.png
+
+- name: Django
+  logo: /images/sections/skills/django-logo-positive.svg
+
+- name: MySQL
+  logo: /images/sections/skills/mysql-icon.svg
+
+- name: Postgres
+  logo: /images/sections/skills/postgresql.svg
+
+- name: Flask
+  logo: /images/sections/skills/pocoo_flask-icon.svg
+
+- name: Git Hub
+  logo: /images/sections/skills/iconmonstr-github-1.svg
+
+- name: Nginx
+  logo: /images/sections/skills/nginx-icon.svg
+
+- name: Apache Tomcat
+  logo: /images/sections/skills/apache_tomcat-icon.svg
+
+- name: Sonarqube
+  logo: /images/sections/skills/sonarqube-seeklogo.com.svg

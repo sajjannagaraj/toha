@@ -1,0 +1,32 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: CJP Technologies Pvt Ltd. (Cloudjournee)
+    url: "https://www.cloudjournee.com"
+    location: Bengaluru
+    # company overview
+    overview: CloudJournee is an end-to-end Cloud Services Company enabling organizations succeed in their digital transformation initiatives by helping them successfully adopt and run their applications in the Cloud at a lower TCO. Specializes in Amazon Web Services, Microsoft Azure & Google Cloud Platform and has designed a wide range of solutions and services to facilitate their customers achieve their business objectives.
+  positions:
+  - designation: Cloud Engineer
+    start: Sep 2018
+
+- company:
+    name: Nadempally Business Solutions Pvt Ltd.
+    url: "https://www.linkedin.com/organization-guest/company/nadempally-business-solutions-private-limited"
+    location: Bengaluru
+    overview: Specializes in providing business and technology services to clients in eCommerce, FMCG sector. We took birth in 2015 and are based in Bengaluru, India.
+  positions:
+  - designation: Software Developer
+    start: Nov 2016
+    end: Apr 2018
+

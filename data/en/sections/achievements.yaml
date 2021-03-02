@@ -1,0 +1,18 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Best Project Of The Year - 2016
+  image: /images/sections/achievements/project-of-the-year.jpg
+  summary: Secured 1st place (Best Project of the year award) in project exhibition-2016, held at NMAMIT Nitte, Mangaluru.
+- title: IoT Basics, Architecture & Applications
+  image: /images/sections/achievements/nexiot.png
+

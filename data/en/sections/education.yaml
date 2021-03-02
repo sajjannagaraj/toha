@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: BE. in Electronics & Communication Engineering
+  icon: fa-graduation-cap
+  timeframe: 2013-2016
+  institution:
+    name: NMAM Institute of Technology, Mangalore
+    url: "https://www.nmamit.nitte.edu.in/"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 7.5
+    outOf: 10
+
